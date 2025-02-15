@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lunasima', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&family=Raleway:wght@100&display=swap');
+
+header {
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(255, 106, 0);
+    width: 0%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    width: 60%;
+    right: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.nav-links li a:hover {
+    color: rgb(255, 106, 0);
+}
+
+.right {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right i {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.btn {
+    padding: 3px 15px;
+    color: white;
+    background: orangered;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: rgb(255, 106, 0);
+    cursor: pointer;
+
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(0, 0, 0,.4), rgb(0, 0, 0,.4)), url(pexels-iris-carvalho-6816015.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.content {
+    border: 1px solid black;
+    width: 60%;
+    height: 400px;
+}
+
+main h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lunasima', sans-serif;
+    bottom: 5px;
+    text-shadow: 0px 2px 2px #000000;
+}
+
+main h1 {
+    display: block;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Lunasima', sans-serif;
+    bottom: 5px;
+    text-shadow: 0px 2px 2px #000000;
+}
+
+main p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    bottom: 5px;
+    /* text-shadow: 0px 2px 2px #000000; */
+    font-weight: 200;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    background: lightgray;
+    padding: 7px;
+}
+
+footer img {
+    width: 250px;
+    margin-left: 20px;
+}
+
+.foot ul li {
+    list-style: none;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.foot ul li a {
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+
+.foot ul {
+    top: 0;
+}
+
+.foot .head {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.footer {
+    background: rgb(45, 44, 44);
+    padding: 3px;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+}
